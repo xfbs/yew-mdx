@@ -1,7 +1,10 @@
 [package]
 name = "yew-mdx"
-version = "0.1.0"
+version = "0.1.0-alpha.1"
 edition = "2021"
+license = "MIT"
+authors = ["Patrick Elsen <pelsen@xfbs.net>"]
+description = "Markdown renderer in Yew with support for embedded components"
 
 [dependencies]
 markdown = "1.0.0-alpha.7"
