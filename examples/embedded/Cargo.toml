@@ -1,0 +1,9 @@
+[package]
+name = "yew-mdx-example-embedded"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+yew-mdx = { path = "../../" }
+yew = { version = "0.20", features = ["csr"] }
+roxmltree = "0.18.0"

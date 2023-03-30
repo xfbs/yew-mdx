@@ -5,4 +5,7 @@ edition = "2021"
 
 [dependencies]
 markdown = "1.0.0-alpha.7"
-yew = { version = "0.20.0", features = ["csr"] }
+yew = { version = "0.20.0" }
+
+[workspace]
+members = ["examples/*"]
