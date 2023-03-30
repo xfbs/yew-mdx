@@ -5,6 +5,8 @@ edition = "2021"
 license = "MIT"
 authors = ["Patrick Elsen <pelsen@xfbs.net>"]
 description = "Markdown renderer in Yew with support for embedded components"
+repository = "https://github.com/xfbs/yew-mdx"
+documentation = "https://docs.rs/yew-mdx"
 
 [dependencies]
 markdown = "1.0.0-alpha.7"
