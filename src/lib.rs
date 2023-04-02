@@ -59,9 +59,7 @@ pub fn markdown_node(props: &MarkdownNodeProps) -> Html {
     let render = props.render.clone();
     match &props.node {
         Node::Root(root) => html!(
-            <div class="markdown">
-                <MarkdownNodes nodes={root.children.clone()} {render} />
-            </div>
+            <MarkdownNodes nodes={root.children.clone()} {render} />
         ),
         Node::BlockQuote(quote) => {
             let nodes = quote.children.clone();
